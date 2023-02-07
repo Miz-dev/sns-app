@@ -1,25 +1,25 @@
 {
-  "name": "sns-app",
-  "version": "1.0.0",
-  "description": "sns-app",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Miz-dev/sns-app.git"
-  },
-  "author": "miz-dev",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Miz-dev/sns-app/issues"
-  },
-  "homepage": "https://github.com/Miz-dev/sns-app#readme",
-  "dependencies": {
-    "express": "^4.18.2",
-    "helmet": "^6.0.1",
-    "mongoose": "^6.9.1",
-    "nodemon": "^2.0.20"
-  }
+	"name": "sns-app",
+	"version": "1.0.0",
+	"description": "sns-app",
+	"main": "server.js",
+	"scripts": {
+		"dev": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Miz-dev/sns-app.git"
+	},
+	"author": "miz-dev",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Miz-dev/sns-app/issues"
+	},
+	"homepage": "https://github.com/Miz-dev/sns-app#readme",
+	"dependencies": {
+		"express": "^4.18.2",
+		"helmet": "^6.0.1",
+		"mongoose": "^6.9.1",
+		"nodemon": "^2.0.20"
+	}
 }
