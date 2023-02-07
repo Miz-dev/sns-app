@@ -1,0 +1,19 @@
+{
+  "name": "sns-app",
+  "version": "1.0.0",
+  "description": "sns-app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miz-dev/sns-app.git"
+  },
+  "author": "miz-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miz-dev/sns-app/issues"
+  },
+  "homepage": "https://github.com/Miz-dev/sns-app#readme"
+}
