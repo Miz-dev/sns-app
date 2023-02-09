@@ -8,6 +8,7 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 
 // データベース接続
+mongoose.set("strictQuery", true);
 mongoose
 	.connect(process.env.MONGOURL)
 	.then(() => {
@@ -18,6 +19,7 @@ mongoose
 	});
 
 // ミドルウェア
+app.use(express.json({ extended: false }));
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
 app.use("/api/posts", postsRoute);
