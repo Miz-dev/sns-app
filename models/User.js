@@ -7,20 +7,20 @@ const UserSchema = new mongoose.Schema(
 			required: true,
 			min: 3,
 			max: 25,
-			uniqque: true,
+			unique: true,
 		},
 		email: {
 			type: String,
 			required: true,
 			max: 50,
-			uniqque: true,
+			unique: true,
 		},
-		passward: {
+		password: {
 			type: String,
 			required: true,
 			min: 6,
 			max: 50,
-			uniqque: true,
+			unique: true,
 		},
 		profilePicture: {
 			type: String,
